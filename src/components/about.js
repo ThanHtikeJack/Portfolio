@@ -14,15 +14,12 @@ const About = () => {
             <p>
               {data.aboutParaOne}
               <br></br>
-              <br></br>
               {data.aboutParaTwo}
               <br></br>
-              <br></br>
-              {data.aboutParaThree}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img className="than" src={data.aboutImage} alt="about"></img>
           </div>
         </div>
       </div>

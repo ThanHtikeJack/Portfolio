@@ -3,124 +3,82 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import cloud from "./images/cloud.svg"
+import photoshop from "./images/photoshop.svg"
+import mysql from "./images/mysql.svg"
+import vuejs from "./images/vuejs.svg"
+import cakephp from "./images/cakephp.svg"
+import typescript from "./images/typescript.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import facebookIcon from "./images/facebook.svg"
+import linkedin from "./images/linkedin.svg"
 
+//profile 
+import than from "./images/than.jpg"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Than Htike Soe",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
-    //Line 2 For Header
-    "products, brands,",
-    //Line 3 For Header
-    "and experience",
+    "Web developer",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "My professional experience includes HTML, CSS, JavaScript, PHP, Vue.js, and Typescript to create client websites. I also have experience in developing and managing SQL databases.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "thanhtikesoe19989@gmail.com",
 
   // End Header Details -----------------------
 
-  // Work Section ------------------------
-  projects: [
-    {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
+  // Experience Section ------------------------
+experienceJobtitletwo:
+"Web Developer",
+experienceCompanynametwo:
+"J-tech",
+experienceComapanylink: "https://www.j-tech.jp/",
+experienceJobyeartwo:
+"July 2019 – Dec 2021 (2 years and 5 months)",
 
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
-  ],
+experienceResponsibilityli1:
+"Web application service (for example Testing, creating new pages to connect the database)",
+experienceResponsibilityli2:
+"User login creates pages using AWS Amplify",
+experienceResponsibilityli3:
+"Website security & user management",
+experienceResponsibilityli4:
+"Included designing user interfaces, testing, and debugging website",
+
+  //Meglio Futuro
+
+experienceJobtitleone:
+"Back-Eed Web Developer",
+experienceCompanynameone:
+"Meglio Futuro",
+experienceJobyearone:
+"Aug 2018 – May 2019 (10 months)",
+experienceResponsibilityli1_1:
+"Maintenance / Diako cms system ",
+experienceResponsibilityli1_2:
+"Housing loan application service maintenance/created page and back-end",
+experienceResponsibilityli1_3:
+"Start Job hunting application service maintenance /created page back-end",
+experienceResponsibilityli1_4:
+"Healthcare Service app (frontend) basic design, detailed design, manufacturing, unit test",
 
   // End Work Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Web Developer with over 3 years’ experience in Japan. I have experience working with local  and international developers.I graduated from the University of Yangon with a Bachelor of Arts in 2012, and Tokyo Technical College with a Diploma of Computer Science in 2019.Since 2019 I have been self studying to increase my skill set and stay current with industry trends.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-
+    "I love new tech and finding creative ways to solve clients problems. ",
+  aboutImage:than,
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -131,32 +89,52 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "HTML",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "JavaScript",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React",
     },
     {
-      img: designIcon,
+      img: cloud,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "AWS",
     },
     {
-      img: codeIcon,
+      img: cakephp,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Cake Php",
+    },
+    {
+      img: photoshop,
+      para:
+        "Photoshop",
+    },
+    {
+      img: mysql,
+      para:
+        "Mysql",
+    },
+    {
+      img: vuejs,
+      para:
+        "Vuejs",
+    },
+    {
+      img: typescript,
+      para:
+        "TypeScript",
     },
   ],
 
@@ -164,9 +142,21 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  promotionHeadingone: "Education",
+  promotionHeadingtwo: "YANGON UNIVERSITY",
+  promotionParaone:
+  "Bachelor of Arts (B.A.), Geography – 2012",
+  promotionHeadingthree: "TOKYO TECHNICAL COLLEGE ",
+  promotionParatwo:
+  "Diploma, Web Developer – 2018",
+  promotionHeadingfour: "CERTIFICATES",
+  promotionParafour: 
+  //parafour line1
+  "WEB ESSENTIAL COURSE -2011",
+  promotionParafive: 
+  //parafour line1
+  "WEB ADVANCE COURSE -2012",
+  
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -174,18 +164,14 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/ThanHtikeJack" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: facebookIcon,
+      url: "https://www.facebook.com/profile.php?id=100035610488923",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: linkedin,
+      url: "https://www.linkedin.com/in/than-htike-soe-59178616a/",
     },
   ],
 
