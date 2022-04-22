@@ -41,7 +41,8 @@ experienceJobtitletwo:
 "Web Developer",
 experienceCompanynametwo:
 "J-tech",
-experienceComapanylink: "https://www.j-tech.jp/",
+experienceComapanylink: 
+"https://www.j-tech.jp/",
 experienceJobyeartwo:
 "July 2019 – Dec 2021 (2 years and 5 months)",
 
@@ -58,6 +59,8 @@ experienceResponsibilityli4:
 
 experienceJobtitleone:
 "Back-Eed Web Developer",
+experienceComapanylinktwo:
+ "https://megliofuturo.co.jp/",
 experienceCompanynameone:
 "Meglio Futuro",
 experienceJobyearone:

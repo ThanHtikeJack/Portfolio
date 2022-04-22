@@ -11,9 +11,13 @@ const Experience  = () => {
         <Fade bottom cascade>
               <h1>Experience</h1>
             </Fade>
-            <p className="Job_two">
+            <p className="job">
               <h2 className="job_title">{data.experienceJobtitletwo}</h2>
-              <h4 className="companyname"> {data.experienceCompanynametwo}</h4>
+              <h3 className="companyname">
+              <a className="company_link" 
+                target="_blank"
+                href={`${data.experienceComapanylink}`}> {data.experienceCompanynametwo}
+                </a></h3>
               <span className="job_year">{data.experienceJobyeartwo}</span>
               <br></br>
               <br></br>
@@ -25,9 +29,13 @@ const Experience  = () => {
                 <li>{data.experienceResponsibilityli4}</li>
                 </ul></span>
             </p>
-            <p className="Job_one">
+            <p className="job">
               <h2 className="job_title">{data.experienceJobtitleone}</h2>
-              <h3 className="companyname">{data.experienceCompanynameone}</h3>
+              <h3 className="companyname">
+              <a className="company_link" 
+                target="_blank"
+                href={`${data.experienceComapanylinktwo}`}>{data.experienceCompanynameone}</a>
+                </h3>
               <span className="job_year">{data.experienceJobyearone}</span>
               <br></br>
               <br></br>
