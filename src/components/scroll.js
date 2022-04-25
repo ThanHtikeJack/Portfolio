@@ -33,13 +33,13 @@ const Scroll = (
 
     const classes = useStyles();
 
-    const [show, setShow] = useState(showBelow ? true : false)
+    const [show, setShow] = useState(showBelow ? true: false)
 
     const handleScroll = () => {
         if (window.pageYOffset > showBelow) {
-            if (!show) setShow(true)
+            if (show) setShow(true)
         } else {
-            if (show) setShow(false)
+            if (!show) setShow(false)
         }
     }
 
@@ -57,11 +57,11 @@ const Scroll = (
 
     return (
         <div>
-           
+            { show &&
                 <IconButton onClick={handleClick} className={classes.toTop} aria-label="to top" component="span">
                     <ExpandLessIcon />
                 </IconButton>
-            
+            }
         </div>
     )
 }
