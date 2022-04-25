@@ -9,9 +9,11 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
+import Scroll from "../components/scroll"
 
 const IndexPage = () => (
   <Layout>
+     <Scroll showBelow={250} />
     <SEO title="Than Htike Soe" />
     <Header></Header>
     <Experience></Experience>
