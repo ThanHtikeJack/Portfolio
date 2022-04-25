@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         "&:hover, &.Mui-focusVisible": {
             transition: '0.3s',
             color: '#0ff00',
-            backgroundColor: '#DCDCDC'
+            backgroundColor: 'none'
         },
         [theme.breakpoints.up('xs')]: {
             right: '5%',
