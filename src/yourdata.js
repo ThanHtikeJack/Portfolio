@@ -15,7 +15,11 @@ import githubIcon from "./images/github.svg"
 import facebookIcon from "./images/facebook.svg"
 import linkedin from "./images/linkedin.svg"
 
-//profile 
+//Company Logo
+import jtechLogo from "./images/j-techlogo.png"
+import megliofuturoLogo from "./images/megliofuturo.png"
+
+//Profile 
 import than from "./images/than.jpg"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -39,6 +43,7 @@ export default {
   // Experience Section ------------------------
 experienceJobtitletwo:
 "Web Developer",
+companyJtech:jtechLogo,
 experienceCompanynametwo:
 "J-tech",
 experienceComapanylink: 
@@ -59,6 +64,7 @@ experienceResponsibilityli4:
 
 experienceJobtitleone:
 "Back-Eed Web Developer",
+companyMegliofuturo:megliofuturoLogo,
 experienceComapanylinktwo:
  "https://megliofuturo.co.jp/",
 experienceCompanynameone:

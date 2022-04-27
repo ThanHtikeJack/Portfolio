@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import Collapsible from 'react-collapsible';
 
 import data from "../yourdata"
 
@@ -11,8 +12,12 @@ const Experience  = () => {
         <Fade bottom cascade>
               <h1>Experience</h1>
             </Fade>
+            <div className="j_tech">
+            <span className="company_logo">
+              <img className="jtech" src={data.companyJtech} alt="J-tech"></img>
+              </span>
+            <Collapsible trigger="Web Develoer">
             <p className="job">
-              <h2 className="job_title">{data.experienceJobtitletwo}</h2>
               <h3 className="companyname">
               <a className="company_link" 
                 target="_blank"
@@ -29,8 +34,15 @@ const Experience  = () => {
                 <li>{data.experienceResponsibilityli4}</li>
                 </ul></span>
             </p>
+            </Collapsible>
+            </div>
+            <div className="meglio_futuro">
+            <span className="company_logo">
+              <img className="megliofuturo" src={data.companyMegliofuturo} alt="J-tech"></img>
+              </span>
+            <Collapsible trigger="Back-End">
+            <div className="border">
             <p className="job">
-              <h2 className="job_title">{data.experienceJobtitleone}</h2>
               <h3 className="companyname">
               <a className="company_link" 
                 target="_blank"
@@ -47,6 +59,9 @@ const Experience  = () => {
                 <li>{data.experienceResponsibilityli1_4}</li>
                 </ul></span>
             </p>
+            </div>
+            </Collapsible>
+          </div>
         </div>   
         </div>
       </div>

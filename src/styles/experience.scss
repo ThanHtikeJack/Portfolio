@@ -3,17 +3,16 @@
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   h1 {
     font-size: 3rem;
     line-height: 20px;
-    @include media(">=tablet", "<desktop") {
-      text-align: center;
-    }
+    text-align: center;
+    
   }
   p {
     @include media(">=tablet", "<desktop") {
-      text-align: center;
+      text-align: left;
     }
   .companyname{
     font-size: 1rem;
@@ -28,5 +27,29 @@
   .job a{
     text-decoration: none;
     color:black;
+  }
+  .Collapsible__trigger {
+    cursor: pointer;
+    margin-left: 4rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    @include media(">=tablet", "<desktop") {
+      text-align: left;
+    }
+  }
+  .Collapsible__contentInner{
+    position: relative;
+    margin-left: 5rem;
+    @include media(">=tablet", "<desktop") {
+      text-align: left;
+    }
+  }
+  ul li{
+    text-align: left;
+  }
+  .company_logo img{
+    width: 50px;
+    position:absolute;
+    margin-top: 5px;
   }
 }
