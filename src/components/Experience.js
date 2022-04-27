@@ -12,7 +12,6 @@ const Experience  = () => {
         <Fade bottom cascade>
               <h1>Experience</h1>
             </Fade>
-          
             <div className="j_tech">
             <span className="company_logo">
               <img className="jtech" src={data.companyJtech} alt="J-tech"></img>
@@ -41,7 +40,6 @@ const Experience  = () => {
             <span className="company_logo">
               <img className="megliofuturo" src={data.companyMegliofuturo} alt="J-tech"></img>
               </span>
-           
             <Collapsible trigger="Back-End">
             <div className="border">
             <p className="job">
