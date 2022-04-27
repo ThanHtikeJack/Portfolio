@@ -35,8 +35,6 @@
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
-
-
   .skill {
     display: flex;
     flex-direction: column;
