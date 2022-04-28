@@ -60,10 +60,24 @@
   .companyname{
     font-size: 1rem;
     padding-right:10px;
+    position: relative;
+    top: 10px;
   }
   .job_year{
     font-size: 12px;
     padding-right: 10px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 10px;
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 10px;
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 13px;
+      width: 100%;
+    }
   }
   .job a{
     text-decoration: none;
