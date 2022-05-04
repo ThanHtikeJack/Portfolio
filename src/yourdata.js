@@ -9,6 +9,7 @@ import mysql from "./images/mysql.svg"
 import vuejs from "./images/vuejs.svg"
 import cakephp from "./images/cakephp.svg"
 import typescript from "./images/typescript.svg"
+import googleanalytics from "./images/googleanalytics.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -130,11 +131,6 @@ experienceResponsibilityli1_4:
         "Cake Php",
     },
     {
-      img: photoshop,
-      para:
-        "Photoshop",
-    },
-    {
       img: mysql,
       para:
         "Mysql",
@@ -148,6 +144,16 @@ experienceResponsibilityli1_4:
       img: typescript,
       para:
         "TypeScript",
+    },
+    {
+      img: googleanalytics,
+      para:
+        "Google Analytics",
+    },
+    {
+      img: photoshop,
+      para:
+        "Photoshop",
     },
   ],
 
