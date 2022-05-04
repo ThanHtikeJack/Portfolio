@@ -1,4 +1,6 @@
 import React from "react"
+import data from "../yourdata"
+
 import scrollTo from "gatsby-plugin-smoothscroll"
 const Navbar = () => {
   return (
@@ -11,7 +13,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+           <span><img className="logo" src={data.logo} alt="logo"></img></span>Portfolio.
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#experience")}>Experience</button>
