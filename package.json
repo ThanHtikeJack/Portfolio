@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "thanhtikesoe-portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "Portfolio",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Than Htike Soe <thanhtikesoe19989@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",

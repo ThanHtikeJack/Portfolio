@@ -21,9 +21,13 @@ import megliofuturoLogo from "./images/megliofuturo.png"
 
 //Profile 
 import than from "./images/than.jpg"
+import logo from "./images/thanlogo.png"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
+
+  //  Logo  ---------------------
+  logo:logo,
 
   //   Header Details ---------------------
   name: "Than Htike Soe",
