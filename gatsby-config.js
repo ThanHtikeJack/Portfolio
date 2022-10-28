@@ -6,12 +6,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-remove-console',
-      options: {
-        exclude: ['error', 'warn'], // <- will be removed all console calls except these
-      }
-    },
-    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
