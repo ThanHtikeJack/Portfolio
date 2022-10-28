@@ -84,6 +84,7 @@
     color:black;
   }
   .Collapsible__trigger {
+
     cursor: pointer;
     margin-left: 4rem;
     font-weight: bolder;
@@ -94,8 +95,9 @@
     border: 1px solid white;
     color: black;
     &:after {
-    font-family: 'FontAwesome';
-    content: '\f359';
+     @extend %fa-icon;
+    @extend .fas;
+    content: "\f107";
     position: absolute;
     margin-left: 12rem;
     top:0px;
@@ -105,7 +107,7 @@
 
   &.is-open {
     &:after {
-      transform: rotatez(-90deg);
+      transform: rotatez(180deg);
     }
   }
 
