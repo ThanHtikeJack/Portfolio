@@ -5,6 +5,12 @@
 // Atoms
 @import "./card.scss";
 
+//fontawesome 
+$fa-font-path: "../fontawesome/webfonts";
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+
 // Components
 @import "./navbar.scss";
 @import "./header.scss";
