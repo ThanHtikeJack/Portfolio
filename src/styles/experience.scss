@@ -88,6 +88,32 @@
     margin-left: 4rem;
     font-weight: bolder;
     font-size: 1.5rem;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid white;
+    color: black;
+    &:after {
+    font-family: 'FontAwesome';
+    content: '\f359';
+    position: absolute;
+    margin-left: 12rem;
+    top:0px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open {
+    &:after {
+      transform: rotatez(-90deg);
+    }
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+  
     @include media(">=phone", "<lgphone") {
       font-size: 1rem;
       text-align: left;
