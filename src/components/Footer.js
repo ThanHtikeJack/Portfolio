@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-container">
           <Fade bottom cascade>
             <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <p>{data.contactSubHeading}</p>
           </Fade>
           <Fade bottom>
             <a
