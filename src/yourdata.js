@@ -180,7 +180,7 @@ experienceResponsibilityli1_4:
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Just say hi and add me to your contacts?Always welcome your message ^^",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/ThanHtikeJack" },
