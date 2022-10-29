@@ -13,7 +13,7 @@ import Scroll from "../components/scroll"
 
 const IndexPage = () => (
   <Layout>
-    <Scroll showBelow={250} />
+    {newFunction()}
     <SEO title="Than Htike Soe" />
     <Header></Header>
     <Experience></Experience>
@@ -25,3 +25,7 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+function newFunction() {
+  return <Scroll showBelow={300} />
+}
+
