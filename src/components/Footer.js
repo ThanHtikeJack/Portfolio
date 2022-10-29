@@ -11,6 +11,21 @@ const Footer = () => {
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
+          <Fade bottom>
+            <a
+              href={`mailto:${
+                data.contactEmail ? data.contactEmail : "thanhtikesoe19989@gmail.com"
+              }`}
+              className="primary-btn"
+            >
+              Hi
+              <span role="img" aria-label="Emoji">
+                👋
+              </span>
+              <br></br>
+              CONNECT WITH ME
+            </a>
+          </Fade>
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
@@ -24,8 +39,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="#">Than Htike Soe</a>
+          © 2023 Than Htike Soe
           </span>
         </div>
       </div>
